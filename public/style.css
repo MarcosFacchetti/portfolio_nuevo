@@ -15,8 +15,8 @@ body {
 }
 :root {
     --body_background: #ffffff;
-    --text-color: rgb(30, 30, 30);
-    --tercer-color: blue;
+    --text-color: rgb(226, 191, 125);
+    --tercer-color: rgb(214, 147, 3);
     --filtro: invert();
 
 }
