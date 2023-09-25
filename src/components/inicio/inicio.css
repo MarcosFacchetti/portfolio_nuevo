@@ -9,11 +9,13 @@
 
 .bg {
     position: absolute;
-    top: -4rem;
+    top: 9rem;
     right: -4rem;
     z-index: -1;
     object-fit: cover;
-    height: 100vh;
+    height: 50vh;
+    filter: blur(0.1rem);
+    filter: grayscale(100%);
 }
 
 .introContent {
