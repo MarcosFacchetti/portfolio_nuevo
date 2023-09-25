@@ -8,8 +8,30 @@
 }
 
 body {
-    background: rgb(30, 30, 30);
-    color: white;
+    background: var(--body_background);
+        color: var(--text-color);
     overflow: hidden;
     overflow-y: scroll;
+}
+:root {
+    --body_background: #ffffff;
+    --text-color: rgb(30, 30, 30);
+    --tercer-color: blue;
+    --filtro: invert();
+
+}
+
+[data-theme="dark"] {
+    --body_background: #1e1e1e;
+    --text-color: rgb(255, 255, 255);
+    --tercer-color: #ffff00;
+    --filtro: none;
+
+}
+
+
+#icon {
+    height: 1.7rem;
+    background-color: var(--cuarto-color);
+    border-radius: 0.5rem;
 }

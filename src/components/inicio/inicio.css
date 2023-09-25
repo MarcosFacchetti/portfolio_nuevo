@@ -29,11 +29,11 @@
 
 .hello {
     font-size: 1.75rem;
-    font-weight: 100;
+    font-weight: 400;
 }
 
 .introName {
-    color: yellow;
+    color: var(--tercer-color);
 }
 
 .introPara {
@@ -43,8 +43,9 @@
 }
 
 .btn {
-    background: white;
+    background: var(--text-color);
     margin: 1rem 0;
+    color: var(--body_background);
     display: flex;
     align-items: center;
     padding: 0.75rem 2rem;
@@ -52,10 +53,15 @@
     border-radius: 2rem;
 }
 
+.btn:hover {
+    background-color: var(--tercer-color);
+}
+
 .btnImg {
     object-fit: cover;
     margin: 0 0.25rem;
     height: 1rem;
+    filter: var(--filtro);
 }
 
 @media screen and (max-width:840px) {
