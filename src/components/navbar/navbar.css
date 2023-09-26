@@ -10,6 +10,7 @@
     position: sticky;
     top: 0;
     z-index: 3;
+    background: var(--body_background);
 }
 
 .logo {
@@ -25,12 +26,13 @@
 .menuList {
     margin: 1rem;
     cursor: pointer;
+    font-weight: 600;
 }
 
 .menuList:hover {
     color: var(--tercer-color);
     padding-bottom: 0.5rem;
-    border-bottom: 1px solid var(--tercer-color);
+    border-bottom: 2px solid var(--tercer-color);
 }
 
 .btnNav {

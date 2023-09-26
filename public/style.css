@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    background: transparent;
     font-family: "Poppins", "sans-serif";
 }
 
@@ -18,13 +17,13 @@ body {
     --text-color: rgb(226, 191, 125);
     --tercer-color: rgb(214, 147, 3);
     --filtro: invert();
-
+    --tarjeta: rgba(255, 153, 0, 0.144);
 }
 
 [data-theme="dark"] {
     --body_background: #1e1e1e;
     --text-color: rgb(255, 255, 255);
-    --tercer-color: #ffff00;
+    --tercer-color: #4f4dcc;
     --filtro: none;
 
 }

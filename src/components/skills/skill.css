@@ -1,0 +1,61 @@
+#skills {
+    overflow: hidden;
+    width: 100vw;
+    max-width: 65rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.skillTitulo {
+    font-size: 3rem;
+    font-weight: 600;
+    padding-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.skillDesc {
+    font-weight: 400;
+    font-size: 1.3rem;
+    max-width: 51rem;
+    padding: 0 2rem;
+    margin-bottom: 1rem;
+}
+
+.containerTarjeta {
+    margin: 1rem;
+    width: 100vw;
+    max-width: 80%;
+    text-align: left;
+}
+
+.skillTarjeta {
+    display: flex;
+    margin: 1rem;
+    padding: 1.5rem 2rem;
+    border-radius: 0.5rem;
+    background: var(--tarjeta);
+}
+
+.skillDesc {
+    font-weight: 400;
+    font-size: 1rem;
+    max-width: 51rem;
+    padding: 0 2rem;
+}
+
+.skillBarraImg{
+    object-fit: cover;
+    height: 4rem;
+    width: 4rem;
+    margin-right: 2rem;
+}
+
+.skillBarraText {
+    font-size: 1rem;
+    font-weight: 300;
+}
+
