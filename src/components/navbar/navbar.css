@@ -92,6 +92,7 @@
 @media screen and (max-width:720px) {
     .mobMenu {
         display: flex;
+        height: 1.5rem;
     }
 
     .menu {
