@@ -13,16 +13,19 @@ const Portfolio = () => {
         <Tarjeta
           imagenSrc={AppClima}
           titulo="Weather app"
+          desc="Created with React and Weather API"
           enlace="https://mjfclima.netlify.app/"
         />
         <Tarjeta
           imagenSrc={Abogado}
           titulo="Lawyer services"
+          desc="Created with React and bootstrap"
           enlace="https://abogacia.netlify.app/"
         />
         <Tarjeta
           imagenSrc={Port}
           titulo="Old Portfolio"
+          desc="Created with React and Tailwind"
           enlace="https://marcosfacchetti.netlify.app/"
         />
       </div>
