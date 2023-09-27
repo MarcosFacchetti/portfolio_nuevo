@@ -78,6 +78,8 @@
 
 .mobMenu{
     display: none;
+    filter: var(--filtro);
+
 }
 
 .mobList {
