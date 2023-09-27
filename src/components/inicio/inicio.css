@@ -66,6 +66,8 @@
     filter: var(--filtro);
 }
 
+
+
 @media screen and (max-width:840px) {
     .bg {
         right: -10vw;
@@ -81,9 +83,43 @@
     }
 }
 
+@media  screen and (max-width:660px) {
+    .introText, .introName {
+        font-size: 3rem;
+    }
+}
+
+@media  screen and (max-width:550px) {
+    .introText, .introName {
+        font-size: 2.5rem;
+    }
+}
+
+@media  screen and (max-width:500px) {
+    .introText, .introName {
+        font-size: 2.5rem;
+    }
+    .introPara {
+        font-size: 0.7rem;
+    }
+    .bg {
+        right: -12vw;
+
+    }
+}
+
 @media screen and (max-width:480px) {
     .bg {
+        right: -13vw;
+    }
+}
+
+@media screen and (max-width:430px) {
+    .bg {
         right: -20vw;
+    }
+    .introText, .introName {
+        font-size: 2rem;
     }
 }
 
@@ -97,8 +133,19 @@
     .bg {
         right: -30vw;
     }
+    .introText, .introName {
+        font-size: 1.7rem;
+    }
 }
 
+@media screen and (max-width:281px) {
+    .bg {
+        right: -40vw;
+    }
+    .introText, .introName {
+        font-size: 1.4rem;
+    }
+}
 
 
 

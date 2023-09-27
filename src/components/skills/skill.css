@@ -34,6 +34,9 @@
 
 .skillTarjeta {
     display: flex;
+    flex-direction: row;
+        align-items: center;
+        justify-content: left;
     margin: 1rem;
     padding: 1.5rem 2rem;
     border-radius: 0.5rem;
@@ -59,3 +62,43 @@
     font-weight: 300;
 }
 
+@media screen and (max-width:820px) {
+    .skillBarraText {
+        font-size: 0.8rem;
+    }
+
+    .skillBarraImg {
+
+        height: 3rem;
+        width: 3rem;
+    }
+}
+
+@media screen and (max-width:540px) {
+    .skillBarraText {
+        font-size: 0.6rem;
+    }
+
+    .skillBarraImg {
+
+        height: 2rem;
+        width: 2rem;
+    }
+}
+
+@media screen and (max-width:281px) {
+    .skillBarraText {
+        font-size: 0.4rem;
+        font-weight: 500;
+    }
+
+    .skillBarraImg {
+
+        height: 1.5rem;
+        width: 1rem;
+    }
+
+    .skillDesc {
+        font-size: 0.7rem;
+    }
+}

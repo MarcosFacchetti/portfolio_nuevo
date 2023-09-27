@@ -39,3 +39,60 @@
 .tarjetaBoton:hover {
     background-color: var(--tercer-color);
 }
+
+@media screen and (max-width:271px) {
+    .tarjeta {
+        max-width: 13rem;
+    }
+
+    .tarjetaImg {
+        height: 7rem;
+        width: 10rem;
+    }
+
+    .tarjetaTitulo {
+        font-size: 1rem;
+    }
+
+    .tarjetaBoton {
+        padding: 0.50rem 1.5rem;
+    }
+}
+
+@media screen and (max-width:460px) {
+    .tarjeta {
+        max-width: 17rem;
+    }
+
+    .tarjetaImg {
+        height: 10rem;
+        width: 13rem;
+    }
+
+    .tarjetaTitulo {
+        font-size: 1.5rem;
+    }
+
+    .tarjetaBoton {
+        padding: 0.50rem 1.5rem;
+    }
+}
+
+@media screen and (max-width:311px) {
+    .tarjeta {
+        max-width: 14rem;
+    }
+
+    .tarjetaImg {
+        height: 7rem;
+        width: 10rem;
+    }
+
+    .tarjetaTitulo {
+        font-size: 1.3rem;
+    }
+
+    .tarjetaBoton {
+        padding: 0.50rem 1.5rem;
+    }
+}

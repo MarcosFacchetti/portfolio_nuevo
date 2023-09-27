@@ -7,28 +7,28 @@ import AppDiseño from "./app-design.png"
 const Skills = () => {
   return (
     <section id='skills'>
-        <span className='skillTitulo'>Esto ofrezco</span>
-        <span className='skillDesc'>Soy un programador fullstack con experiencia en la creacion de paginas web, con un diseño responsive y amigable para el usuario</span>
+        <span className='skillTitulo'>Services</span>
+        <span className='skillDesc'>I am a fullstack developer with experience in creating responsive and user-friendly websites.</span>
        <div className='containerTarjeta'>
         <div className='skillTarjeta'>
             <img src={UiDiseño} alt='UiDesign' className='skillBarraImg'/>
             <div className='skillBarraText'>
-                <h2>UI/UX Diseño</h2>
-                <p>asd</p>
+                <h2>UI/UX design</h2>
+                <p>I will design your interface and ensure an optimal user experience.</p>
             </div>
         </div>
         <div className='skillTarjeta'>
             <img src={WebDiseño} alt='WebDesign' className='skillBarraImg'/>
             <div className='skillBarraText'>
-                <h2>a</h2>
-                <p>asd</p>
+                <h2>Website design</h2>
+                <p>I can design your website based on your preferences, and I'm also available to provide ideas if you need inspiration.</p>
             </div>
         </div>
         <div className='skillTarjeta'>
             <img src={AppDiseño} alt='AppDesign' className='skillBarraImg'/>
             <div className='skillBarraText'>
-                <h2>a</h2>
-                <p>asd</p>
+                <h2>App design</h2>
+                <p>Your website will be responsive on all devices.</p>
             </div>
         </div>
         </div>

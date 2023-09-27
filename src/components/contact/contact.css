@@ -43,7 +43,7 @@
 
 }
 
-.sumbitBtn {
+.submitBtn {
     background: var(--text-color);
     border: none;
     border-radius: 0.5rem;
@@ -51,6 +51,6 @@
     padding: 0.75rem 3.5rem;
 }
 
-.sumbitBtn:hover {
+.submitBtn:hover {
     background-color: var(--tercer-color);
 }

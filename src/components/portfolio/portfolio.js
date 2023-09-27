@@ -12,17 +12,17 @@ const Portfolio = () => {
       <div className="tarjetaContainer">
         <Tarjeta
           imagenSrc={AppClima}
-          titulo="App de clima"
+          titulo="Weather app"
           enlace="https://mjfclima.netlify.app/"
         />
         <Tarjeta
           imagenSrc={Abogado}
-          titulo="Servicios de abogado"
+          titulo="Lawyer services"
           enlace="https://abogacia.netlify.app/"
         />
         <Tarjeta
           imagenSrc={Port}
-          titulo="Portfolio viejo"
+          titulo="Old Portfolio"
           enlace="https://marcosfacchetti.netlify.app/"
         />
       </div>

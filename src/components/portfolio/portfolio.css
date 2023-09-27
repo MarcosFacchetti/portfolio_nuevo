@@ -20,6 +20,18 @@
 .tarjetaContainer {
     display: flex;
     flex-direction: row;
+    object-position: center;
+    align-items: center;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
+@media screen and (max-width:271px) {
+    #portfolio {
+
+    }
+    
+    .portaTitulo {
+        font-size: 2rem;
+    }
+}
