@@ -8,7 +8,7 @@ import Port from "./portfolio-viejo.png"
 const Portfolio = () => {
   return (
     <section id="portfolio">
-      <div className="portaTitulo"> Proyectos</div>
+      <div className="portaTitulo"> Projects</div>
       <div className="tarjetaContainer">
         <Tarjeta
           imagenSrc={AppClima}
