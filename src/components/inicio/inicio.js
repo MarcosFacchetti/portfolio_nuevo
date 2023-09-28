@@ -10,7 +10,7 @@ const Inicio = () => {
     <section id='inicio'>
       <div className='introContent'>
         <span className='hello'>Hello,</span>
-        <span className='introText'>I'm <span className='introName'>Marcos</span> <br/> Website Designer </span>
+        <span className='introText'>I'm <span className='introName'>Marcos</span> <br/> Fullstack developer </span>
         <p className='introPara'>Skilled web designer whit experience in creating<br/>visually appealing and user friendly websites.</p>
         <Link><button className='btn'onClick={() => {
           document.getElementById("contact").scrollIntoView({behavior: "smooth"});
