@@ -16,6 +16,7 @@
     height: 50vh;
     filter: blur(0.1rem);
     filter: grayscale(100%);
+    opacity: 60%;
 }
 
 .introContent {
@@ -50,9 +51,13 @@
     color: var(--body_background);
     display: flex;
     align-items: center;
+    text-align: center;
+    justify-content: center;
     padding: 0.75rem 2rem;
     border: none;
-    border-radius: 2rem;
+    border-radius: 0.6rem;
+    font-weight: 500;
+    width: 8rem;
 }
 
 .btn:hover {
