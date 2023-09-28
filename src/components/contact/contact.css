@@ -45,6 +45,7 @@
 
 .submitBtn {
     background: var(--text-color);
+    color: var(--body_background);
     border: none;
     border-radius: 0.5rem;
     margin: 2rem;
