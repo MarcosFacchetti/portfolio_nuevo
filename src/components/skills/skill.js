@@ -8,7 +8,7 @@ const Skills = () => {
   return (
     <section id='skills'>
         <span className='skillTitulo'>Services</span>
-        <span className='skillDesc'>I am a fullstack developer with experience in creating responsive and user-friendly websites.</span>
+        <span className='skillDesc'>Fullstack developer with experience in creating responsive and user-friendly websites.</span>
        <div className='containerTarjeta'>
         <div className='skillTarjeta'>
             <img src={UiDiseño} alt='UiDesign' className='skillBarraImg'/>
