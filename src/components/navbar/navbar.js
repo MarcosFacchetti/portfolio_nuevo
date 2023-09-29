@@ -30,7 +30,7 @@ const Navbar = () => {
             <img src={Menu} alt='Menu' className='mobMenu' onClick={()=>setShowMenu(!showmenu)} />
         <div className='navMenu' style={{display: showmenu? "flex" : "none"}}>
             <Link activeClass='active' to="inicio" spy={true} smooth={true} offset={-100} duration={500} className='mobList' onClick={()=>setShowMenu(false)}>Home</Link>
-            <Link activeClass='active' to="skills" spy={true} smooth={true} offset={-100} duration={500} className='mobList' onClick={()=>setShowMenu(false)}>Skills</Link>
+            <Link activeClass='active' to="skills" spy={true} smooth={true} offset={-100} duration={500} className='mobList' onClick={()=>setShowMenu(false)}>Services</Link>
             <Link activeClass='active' to="portfolio" spy={true} smooth={true} offset={-100} duration={500} className='mobList' onClick={()=>setShowMenu(false)}>Portfolio</Link>
             <Link activeClass='active' to="contact" spy={true} smooth={true} offset={-100} duration={500} className='mobList' onClick={()=>setShowMenu(false)}>Contact</Link>
 

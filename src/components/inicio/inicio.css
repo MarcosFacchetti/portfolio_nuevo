@@ -16,8 +16,16 @@
     height: 50vh;
     filter: blur(0.1rem);
     filter: grayscale(100%);
-    opacity: 60%;
+    opacity: 0.1;
+    transform: translateX(-30rem);
+    transition: opacity 0.5s ease, transform 0.5s ease;
 }
+
+.bg.show {
+    opacity: 0.6;
+    transform: translateY(0);
+  }
+
 
 .introContent {
     height: 100vh;
@@ -28,7 +36,15 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    opacity: 0;
+    transform: translateY(-30rem);
+    transition: opacity 0.5s ease, transform 0.5s ease;
 }
+
+.introContent.show {
+    opacity: 1;
+    transform: translateY(0);
+  }
 
 .hello {
     font-size: 1.75rem;
@@ -70,6 +86,18 @@
     height: 1rem;
     filter: var(--filtro);
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
