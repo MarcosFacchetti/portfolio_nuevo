@@ -110,6 +110,10 @@
         font-size: 10vw;
     }
 
+    .introText {
+        font-size: 3rem;
+    }
+
     .hello {
         font-size: 4.5vw;
         font-weight: 400;
@@ -145,6 +149,10 @@
     .bg {
         right: -13vw;
     }
+
+    .introText {
+        font-size: 2rem;
+    }
 }
 
 @media screen and (max-width:430px) {
@@ -160,6 +168,10 @@
     .bg {
         right: -20vw;
     }
+
+    .introText {
+        font-size: 1.6rem;
+    }
 }
 
 @media screen and (max-width:360px) {
@@ -167,16 +179,20 @@
         right: -30vw;
     }
     .introText, .introName {
-        font-size: 1.7rem;
+        font-size: 1.4rem;
     }
 }
 
-@media screen and (max-width:281px) {
+@media screen and (max-width:300px) {
     .bg {
-        right: -40vw;
+        right: -60vw;
     }
-    .introText, .introName {
+    .introName {
         font-size: 1.4rem;
+    }
+
+    .introText {
+        font-size: 1rem;
     }
 }
 
