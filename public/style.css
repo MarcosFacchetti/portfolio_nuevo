@@ -15,9 +15,9 @@ body {
 :root {
     --body_background: #ffffff;
     --text-color: rgb(0, 0, 0);
-    --tercer-color: rgb(207, 176, 110);
+    --tercer-color: #cfb06e;
     --filtro: invert();
-    --tarjeta: #ff990025;
+    --tarjeta: #f3dbb4;
     --efecto: 0.6;
 }
 
