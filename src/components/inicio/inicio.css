@@ -16,13 +16,13 @@
     height: 50vh;
     filter: blur(0.1rem);
     filter: grayscale(100%);
-    opacity: 0.1;
+    opacity: 0;
     transform: translateX(-30rem);
     transition: opacity 0.5s ease, transform 0.5s ease;
 }
 
 .bg.show {
-    opacity: 0.6;
+    opacity: var(--efecto);
     transform: translateY(0);
   }
 

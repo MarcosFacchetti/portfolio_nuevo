@@ -18,6 +18,7 @@ body {
     --tercer-color: rgb(207, 176, 110);
     --filtro: invert();
     --tarjeta: #ff990025;
+    --efecto: 0.6;
 }
 
 [data-theme="dark"] {
@@ -26,6 +27,7 @@ body {
     --tercer-color: #4f4dcc;
     --filtro: none;
     --tarjeta: #141414;
+    --efecto: 1;
 
 }
 
