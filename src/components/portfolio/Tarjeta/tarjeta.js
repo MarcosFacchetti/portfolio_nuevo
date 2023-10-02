@@ -8,12 +8,17 @@ const Tarjeta = ({ imagenSrc, titulo, desc, enlace }) => {
 
   return (
     <div className="tarjeta">
-      <img className='tarjetaImg' src={imagenSrc} alt={titulo} />
-      <h2 className='tarjetaTitulo'>{titulo}</h2>
-      <p className='tarjetaPara'>{desc}</p>
-      <a href={enlace} target="_blank" rel="noopener noreferrer">
-        <button className='tarjetaBoton' onClick={abrirNuevaPestana}>Visit page</button>
-      </a>
+      <img className="tarjetaImg" src={imagenSrc} alt={titulo} />
+      <h2 className="tarjetaTitulo">{titulo}</h2>
+      <p className="tarjetaPara">{desc}</p>
+
+      <button
+        href={enlace}
+        className="tarjetaBoton"
+        onClick={abrirNuevaPestana}
+      >
+        Visit page
+      </button>
     </div>
   );
 }
