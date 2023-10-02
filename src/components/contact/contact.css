@@ -17,7 +17,7 @@
 }
 
 .alert {
-    background-color: var(--text-color);
+    background-color: green;
     color: var(--body_background);
     padding: 1rem;
     border-radius: 2rem;

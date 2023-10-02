@@ -1,7 +1,7 @@
 #skills {
     overflow: hidden;
     width: 100vw;
-    height: 100vh;
+    min-height: calc(100vh - 4rem);
     max-width: 75rem;
     display: flex;
     flex-direction: column;

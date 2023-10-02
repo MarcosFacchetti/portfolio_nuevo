@@ -16,7 +16,7 @@ const Navbar = () => {
         <img src={Logo} alt='Logo' className='logo' />
         <div className='menu'>
             <Link activeClass='active' to="inicio" spy={true} smooth={true} offset={-100} duration={500} className='menuList'>Home</Link>
-            <Link activeClass='active' to="skills" spy={true} smooth={true} offset={-100} duration={500} className='menuList'>About</Link>
+            <Link activeClass='active' to="skills" spy={true} smooth={true} offset={-50} duration={500} className='menuList'>About</Link>
             <Link activeClass='active' to="portfolio" spy={true} smooth={true} offset={-100} duration={500} className='menuList'>Portfolio</Link>
         </div>
         <DarkMode/>

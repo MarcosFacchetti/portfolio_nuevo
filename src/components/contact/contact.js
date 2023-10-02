@@ -14,7 +14,7 @@ const Contact = () => {
       .then((result) => {
         console.log(result.text);
         e.target.reset();
-        setAlertMessage('Email Sent !');
+        setAlertMessage('Email Sent! ✔️');
 
         // Elimina la alerta después de 3 segundos
         setTimeout(() => {
