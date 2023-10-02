@@ -50,10 +50,13 @@
 .submitBtn {
     background: var(--text-color);
     color: var(--body_background);
+    position: absolute;
+    top: 50%;
+    left: 50%;
     border: none;
     border-radius: 0.5rem;
     margin: 2rem;
-    padding: 0.75rem 3.5rem;
+    padding: 0.75rem 1.5rem;
 }
 
 .submitBtn:hover {

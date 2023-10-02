@@ -13,7 +13,7 @@ body {
     overflow-y: scroll;
 }
 :root {
-    --body_background: #f7e5d4;
+    --body_background: #ffffff;
     --text-color: rgb(0, 0, 0);
     --tercer-color: rgb(207, 176, 110);
     --filtro: invert();

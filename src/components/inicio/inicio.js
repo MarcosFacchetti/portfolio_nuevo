@@ -21,7 +21,7 @@ const Inicio = () => {
       <div className={`introContent ${showIntro ? 'show' : ''}`}>
         <span className='hello'>Hello,</span>
         <span className='introText'>
-          I'm <span className='introName'>Marcos</span> <br /> Fullstack developer{' '}
+          I'm <span className='introName'>Marcos</span> <br /> Fullstack developer
         </span>
         <p className='introPara'>
           Skilled web designer whit experience in creating
