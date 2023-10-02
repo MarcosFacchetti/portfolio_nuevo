@@ -19,10 +19,9 @@
 .alert {
     background-color: var(--text-color);
     color: var(--body_background);
-    position: relative;
-    padding: 2rem;
+    padding: 1rem;
     border-radius: 2rem;
-    font-size: 2rem;
+    font-size: 1rem;
   }
 
 .contactForm{
@@ -54,7 +53,7 @@
     border: none;
     border-radius: 0.5rem;
     margin: 2rem;
-    padding: 0.75rem 1.5rem;
+    padding: 0.75rem 3.5rem;
 }
 
 .submitBtn:hover {
