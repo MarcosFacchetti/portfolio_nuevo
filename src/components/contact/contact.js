@@ -19,7 +19,7 @@ const Contact = () => {
         // Elimina la alerta después de 3 segundos
         setTimeout(() => {
           setAlertMessage('');
-        }, 300);
+        }, 3000);
       })
       .catch((error) => {
         console.log(error.text);
