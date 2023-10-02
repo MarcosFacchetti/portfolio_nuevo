@@ -19,6 +19,7 @@
 .alert {
     background-color: var(--text-color);
     color: var(--body_background);
+    position: relative;
     padding: 2rem;
     border-radius: 2rem;
     font-size: 2rem;
@@ -50,9 +51,6 @@
 .submitBtn {
     background: var(--text-color);
     color: var(--body_background);
-    position: absolute;
-    top: 50%;
-    left: 50%;
     border: none;
     border-radius: 0.5rem;
     margin: 2rem;
