@@ -74,6 +74,7 @@
     border-radius: 0.6rem;
     font-weight: 500;
     width: 8rem;
+    margin-right: 0.5rem;
 }
 
 .btn:hover {
