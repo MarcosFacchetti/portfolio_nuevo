@@ -87,6 +87,30 @@
     filter: var(--filtro);
 }
 
+.btnCont {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+
+.btnLink {
+    padding: 0.4rem;
+    margin: .5rem;
+    border-radius: .5rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background: var(--text-color);
+    
+    transform: translateY(0rem);
+    transition: transform .3s ease-in-out;
+}
+
+.btnLink:hover {
+    transform: translateY(-.6rem);
+    transition: transform .3s ease-in-out;
+}
 
 
 
@@ -180,6 +204,10 @@
     }
     .introText, .introName {
         font-size: 1.4rem;
+    }
+
+    .btn {
+        padding: .5rem;
     }
 }
 
