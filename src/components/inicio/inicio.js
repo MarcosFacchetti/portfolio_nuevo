@@ -21,20 +21,19 @@ const Inicio = () => {
   return (
     <section id="inicio">
       <div className={`introContent ${showIntro ? "show" : ""}`}>
-        <span className="hello">Hello,</span>
+        <span className="hello">Hola,</span>
         <span className="introText">
-          I'm <span className="introName">Marcos</span> <br /> Fullstack
-          developer
+          Soy <span className="introName">Marcos</span> <br /> Desarrollador Fullstack
         </span>
         <p className="introPara">
-          Skilled web designer whit experience in creating
+          Diseñador web con habilidades certificadas y trayectoria en la construcción de sitios web
           <br />
-          visually appealing and user friendly websites.
+          que destacan por su atractivo visual y facilidad de navegación. 
         </p>
 
         <div className='btnCont'>
           <button className="btn" onClick={abrirCV}>
-          View CV
+          Ver CV
          </button>
           <button
             className="btnLink"

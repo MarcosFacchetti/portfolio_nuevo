@@ -14,7 +14,7 @@ const Contact = () => {
       .then((result) => {
         console.log(result.text);
         e.target.reset();
-        setAlertMessage('Email Sent! ✔️');
+        setAlertMessage('Email Enviado! ✔️');
 
         // Elimina la alerta después de 3 segundos
         setTimeout(() => {
@@ -29,14 +29,14 @@ const Contact = () => {
   return (
     <section id='contactPage'>
       <div id='contact'>
-        <h1 className='contactTitulo'>Contact Me</h1>
-        <span className='contactDesc'>Please fill out the form below to discuss any work opportunities.</span>
+        <h1 className='contactTitulo'>Contactame</h1>
+        <span className='contactDesc'>Completa el siguiente formulario para hablar sobre cualquier oportunidad de trabajo.</span>
         <form className='contactForm' ref={form} onSubmit={sendEmail}>
-          <input className='name' type='text' placeholder='Your Name' name='from_name' />
-          <input className='email' type='email' placeholder='Your Email' name='from_email' />
-          <textarea className='msj' name='message' rows='5' placeholder='Your Message' />
+          <input className='name' type='text' placeholder='Ingresa tu Nombre' name='from_name' />
+          <input className='email' type='email' placeholder='Ingresa tu Email' name='from_email' />
+          <textarea className='msj' name='message' rows='5' placeholder='Ingresa tu mensaje' />
           <button className='submitBtn' type='submit' value='Send'>
-            Submit
+            Enviar
           </button>
         </form>
       </div>

@@ -4,7 +4,7 @@ import "./footer.css"
 const Footer = () => {
   return (
     <footer className='footer'>
-        Copyright &#169; 2023 Marcos Facchetti. All right received.
+        Copyright &#169; 2023 Marcos Facchetti. Todos los derechos reservados.
     </footer>
     )
 }

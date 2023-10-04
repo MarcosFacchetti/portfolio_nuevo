@@ -17,7 +17,7 @@ const Tarjeta = ({ imagenSrc, titulo, desc, enlace }) => {
         className="tarjetaBoton"
         onClick={abrirNuevaPestana}
       >
-        Visit page
+        Visitar página
       </button>
     </div>
   );
