@@ -7,7 +7,7 @@ import AppDiseño from "./app-design.png"
 const Skills = () => {
   return (
     <section id='skills'>
-        <span className='skillTitulo'>Servicios</span>
+        <span className='skillTitulo'>Servicios de páginas estaticas.</span>
         <span className='skillDesc'>Mi objetivo es transformar tus ideas en realidades digitales impactantes.<br/> Con un enfoque en la optimización de la experiencia del usuario, puedo diseñar interfaces intuitivas y efectivas que satisfagan las necesidades de tus clientes.</span>
        <div className='containerTarjeta'>
         <div className='skillTarjeta'>
